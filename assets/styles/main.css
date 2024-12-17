@@ -85,7 +85,7 @@ h3{
     font-size: var(--h3-size);
 }
 .description{
-    margin: 25px 0;
+    margin: 15px 0;
     line-height: 1.6;
     font-size: var(--text-size);
     color: var(--text-color);
