@@ -13,7 +13,7 @@
     --text-color: #717171;
     --h1-size: 40px;
     --h2-size: 36px;
-    --h3-size:23px;
+    --h3-size:21px;
     --text-size: 16px;
     --section-padding: 40px;
 }
@@ -34,7 +34,6 @@ input{
     outline: none;
 }
 img{
-    display: block;
     max-width: 100%;
 }
 .container {
@@ -83,6 +82,7 @@ h1{
 }
 h3{
     font-size: var(--h3-size);
+    color: var(--title-color);
 }
 .description{
     margin: 15px 0;
@@ -201,4 +201,17 @@ header ul a{
 }
 .clients .container .row a{
     width: 60px;
+}
+.features .container .row {
+    align-items: initial;
+    gap: 30px;
+}
+.features .container .row .feature{
+    width: 340px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 2px rgb(0 0 0 / .09);
+}
+.features .container .row .feature .feature-icon{
+    height: 60px;
 }
