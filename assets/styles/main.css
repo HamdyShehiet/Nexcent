@@ -188,11 +188,11 @@ header ul a{
         color: var(--clr-white);
     }
 }
-/* .hero .container{
+.hero .container{
     min-height: calc(100vh - 200px);
     gap: 40px;
 }
 .hero .container .info h1 span{
     display: inline-block;
     color: var(--clr-green);
-} */
+}
