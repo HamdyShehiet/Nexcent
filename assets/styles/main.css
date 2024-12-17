@@ -107,9 +107,10 @@ footer{
 @media (min-width: 992px) {
     .container {
         justify-content: space-between;
+        gap: 20px;
     }
     .container .col{
-        flex-basis: 45%;
+        flex-basis: 47%;
     }
 }
 /* Components */
@@ -190,7 +191,6 @@ header ul a{
 }
 .hero .container{
     min-height: calc(100vh - 200px);
-    gap: 40px;
 }
 .hero .container .info h1 span{
     display: inline-block;
