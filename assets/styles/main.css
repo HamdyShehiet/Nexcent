@@ -196,3 +196,9 @@ header ul a{
     display: inline-block;
     color: var(--clr-green);
 }
+.clients .container .row {
+    gap: 100px;
+}
+.clients .container .row a{
+    width: 60px;
+}
