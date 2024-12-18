@@ -73,12 +73,13 @@ img{
 }
 h1{
     margin-bottom: 15px;
-    font-size: var(--h1-size);
+    font-size: clamp(32px,5vw,var(--h1-size));
     color: var(--title-color);
 }
 .title{
     margin-bottom: 15px;
     font-size: var(--h2-size);
+    font-size: clamp(30px,5vw,var(--h2-size));
     font-weight: 600;
     color: var(--title-color);
 }
@@ -103,8 +104,11 @@ h3{
     font-size: var(--text-size);
     color: var(--text-color);
 }
+.bg-alt-color{
+    background-color: var(--clr-bg-alt);
+}
 .link-btn{
-    display: inline-block;
+    display: inline-flex;
     padding: 12px 18px;
     background-color:var(--clr-green);
     color: var(--clr-white);
@@ -134,6 +138,7 @@ footer{
 header {
     position: sticky;
     top: 0;
+    z-index: 10;
     padding: 25px 0;
 }
 header .container{
@@ -260,27 +265,29 @@ header ul a{
 }
 .marketing .container .row{
     gap : 35px;
+    padding-bottom: 40px;
 }
 .marketing .container .row .card{
     position: relative;
     width: 350px;
-    padding-bottom: 20px;
     text-align: center;
+    border-radius: 20px;
     box-shadow: 0 0 8px 2px rgb(0 0 0 / .15);
     background-color: var(--clr-bg-alt);
+}
+.marketing .container .row .card .card-details{
+    padding: 20px;
 }
 @media (min-width: 992px) {
     .marketing .container .row{
         row-gap: 80px;
     }
-.marketing .container .row .card .card-details{
+    .marketing .container .row .card .card-details{
     position: absolute;
-    top: 170px;
+    top: 150px;
     right: 50%;
     transform: translateX(50%);
     width: 90%;
-    padding: 20px;
-    text-align: center;
     border-radius: 20px;
     background-color: var(--clr-bg-alt);
     box-shadow: 0 0 20px 4px rgb(0 0 0 / .1);
@@ -288,4 +295,9 @@ header ul a{
 .marketing .container .row .card .card-details p{
     min-height: 80px;
 }
+}
+.demo .container h2{
+    font-size: clamp(32px,5vw,var(--h1-size));
+    color: var(--title-color);
+    margin-bottom: 25px;
 }
