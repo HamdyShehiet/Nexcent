@@ -217,7 +217,7 @@ header ul a{
 .features .container .row .feature .feature-icon{
     height: 60px;
 }
-/* .statistics .container .statistic-list {
+.statistics .container .statistic-list {
     gap:30px  25px;
 }
 .statistics .container .statistic-list .statistic{
@@ -230,4 +230,4 @@ header ul a{
     margin-top: 5px;
     font-size: var(--text-size);
     color: var(--text-color);
-} */
+}
