@@ -118,6 +118,10 @@ h3{
 .text-center{
     text-align: center;
 }
+.container .logo a{
+    font-size: var(--h3-size);
+    font-weight: 700;
+}
 section,
 footer{
     padding: 60px 0;
@@ -147,9 +151,7 @@ header .container{
     align-items: center;
     justify-content: space-between;
 }
-.container .logo a{
-    font-size: var(--h3-size);
-    font-weight: 700;
+header .logo a{
     color: var(--title-color);
 }
 header ul a{
@@ -302,12 +304,12 @@ header ul a{
     color: var(--title-color);
     margin-bottom: 25px;
 }
-/* footer{
+footer{
     background-color: var(--clr-bg);
 }
 footer .container {
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
 }
 footer .container .info{
     display: flex;
@@ -318,13 +320,11 @@ footer .container .info .logo a{
     color: var(--clr-bg-alt);
 }
 footer .container .info ul{
-    display: flex;
-    align-items: center;
     gap: 40px;
 }
 footer .container .links-lists{
     align-items: initial;
-    gap: 50px;
+    gap: 60px;
 }
 footer .container .links-lists h3{
     color: var(--clr-white);
@@ -337,7 +337,7 @@ footer .container .links-lists .links-list ul li a{
     color: var(--text-color);
 }
 footer .container .links-lists .contact-us .field{
-    padding: 9px;
+    padding: 10px;
     border-radius: 8px;
     background-color: var(--text-color);
 }
@@ -365,6 +365,6 @@ footer .container .info ul{
 @media (min-width: 992px) {
     footer .container {
         justify-content: space-between;
-        grid-template-columns: 30% 70%;
+        grid-template-columns: 26% 70%;
     }
-} */
+}
