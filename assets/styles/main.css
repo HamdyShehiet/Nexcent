@@ -29,7 +29,8 @@ ul{
 a{
     text-decoration: none;
 }
-input{
+input,
+button{
     border: none;
     outline: none;
 }
@@ -93,13 +94,13 @@ h1{
     color: var(--clr-green);
 }
 h3{
-    margin: 15px 0;
+    margin-bottom: 15px ;
     font-size: var(--h3-size);
     font-weight: 700;
     color: var(--title-color);
 }
 .description{
-    margin-bottom: 20px;
+    margin: 10px 0 20px 0;
     line-height: 1.6;
     font-size: var(--text-size);
     color: var(--text-color);
@@ -146,7 +147,7 @@ header .container{
     align-items: center;
     justify-content: space-between;
 }
-header .container .logo a{
+.container .logo a{
     font-size: var(--h3-size);
     font-weight: 700;
     color: var(--title-color);
@@ -301,3 +302,69 @@ header ul a{
     color: var(--title-color);
     margin-bottom: 25px;
 }
+/* footer{
+    background-color: var(--clr-bg);
+}
+footer .container {
+    justify-content: center;
+    gap: 40px;
+}
+footer .container .info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .container .info .logo a{
+    color: var(--clr-bg-alt);
+}
+footer .container .info ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+footer .container .links-lists{
+    align-items: initial;
+    gap: 50px;
+}
+footer .container .links-lists h3{
+    color: var(--clr-white);
+}
+footer .container .links-lists .links-list ul li a{
+    display: block;
+    margin-bottom: 15px;
+    font-size: var(--text-size);
+    font-weight: 500;
+    color: var(--text-color);
+}
+footer .container .links-lists .contact-us .field{
+    padding: 9px;
+    border-radius: 8px;
+    background-color: var(--text-color);
+}
+footer .container .links-lists .contact-us input{
+    width: 220px;
+    font-size: var(--text-size);
+    font-weight: 500;
+    background-color: transparent;
+    color: var(--clr-bg-alt);
+}
+footer .container .links-lists .contact-us input::placeholder{
+    color: var(--clr-bg-alt);
+}
+footer .container .links-lists .contact-us button{
+    background-color: transparent;
+}
+@media (max-width: 992px) {
+footer .container .info{
+    text-align: center;
+}
+footer .container .info ul{
+    justify-content: center;
+}
+}
+@media (min-width: 992px) {
+    footer .container {
+        justify-content: space-between;
+        grid-template-columns: 30% 70%;
+    }
+} */
