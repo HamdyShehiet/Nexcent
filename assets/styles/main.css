@@ -234,7 +234,7 @@ header ul a{
     font-size: var(--text-size);
     color: var(--text-color);
 }
-/* .customers .container {
+.customers .container {
     align-items: initial;
 }
 .customers .container .customers-info span{
@@ -256,4 +256,4 @@ header ul a{
 .customers .container .customers-info .customers-list li:last-child a{
     font-weight: 500;
     color: var(--clr-green);
-} */
+}
