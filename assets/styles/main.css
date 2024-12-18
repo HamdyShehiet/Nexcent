@@ -258,7 +258,7 @@ header ul a{
 .customers .container .customers-info .customers-list li:not(:last-child){
     width: 50px;
 }
-/* .marketing .container .row{
+.marketing .container .row{
     gap : 35px;
 }
 .marketing .container .row .card{
@@ -288,4 +288,4 @@ header ul a{
 .marketing .container .row .card .card-details p{
     min-height: 80px;
 }
-} */
+}
