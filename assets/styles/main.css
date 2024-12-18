@@ -194,7 +194,7 @@ header ul a{
     }
     header nav ul li a.sign-up{
         display: inline-block;
-        padding: 12px 18px;
+        padding: 10px;
         border-radius: 8px;
         background-color:var(--clr-green);
         color: var(--clr-white);
