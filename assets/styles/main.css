@@ -61,7 +61,7 @@ img{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 30px 20px;
+    row-gap: 30px;
 }
 .in-flex{
     display: inline-flex;
@@ -72,10 +72,12 @@ img{
     display: grid;
 }
 h1{
+    margin-bottom: 15px;
     font-size: var(--h1-size);
     color: var(--title-color);
 }
 .title{
+    margin-bottom: 15px;
     font-size: var(--h2-size);
     font-weight: 600;
     color: var(--title-color);
@@ -85,11 +87,13 @@ h1{
     color: var(--clr-green);
 }
 h3{
+    margin: 15px 0;
     font-size: var(--h3-size);
+    font-weight: 700;
     color: var(--title-color);
 }
 .description{
-    margin: 15px 0;
+    margin-bottom: 20px;
     line-height: 1.6;
     font-size: var(--text-size);
     color: var(--text-color);
@@ -111,6 +115,7 @@ footer{
 @media (min-width: 992px) {
     .container {
         justify-content: space-between;
+        column-gap: 20px;
     }
     .container .col{
         flex-basis: 47%;
@@ -223,11 +228,32 @@ header ul a{
 .statistics .container .statistic-list .statistic{
     width: 200px;
 }
-.statistics .container .statistic-list .statistic-details span{
-    display: block;
-}
 .statistics .container .statistic-list .statistic-details span:last-child{
+    display: block;
     margin-top: 5px;
     font-size: var(--text-size);
     color: var(--text-color);
 }
+/* .customers .container {
+    align-items: initial;
+}
+.customers .container .customers-info span{
+    display: block;
+    color: var(--clr-green);
+    font-size: var(--h3-size);
+    font-weight: 600;
+}
+.customers .container .customers-info .customers-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px  7px;
+}
+.customers .container .customers-info .customers-list li:not(:last-child){
+    width: 50px;
+}
+.customers .container .customers-info .customers-list li:last-child a{
+    font-weight: 500;
+    color: var(--clr-green);
+} */
