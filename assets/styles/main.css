@@ -12,7 +12,7 @@
     --title-color: #4d4d4d;
     --text-color: #717171;
     --h1-size: 40px;
-    --h2-size: 36px;
+    --h2-size: 34px;
     --h3-size:21px;
     --text-size: 16px;
     --section-padding: 40px;
@@ -61,10 +61,12 @@ img{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 30px 20px;
 }
 .in-flex{
     display: inline-flex;
     align-items: center;
+    gap: 15px;
 }
 .grid{
     display: grid;
@@ -75,9 +77,11 @@ h1{
 }
 .title{
     font-size: var(--h2-size);
+    font-weight: 600;
     color: var(--title-color);
 }
 .special-title{
+    display: inline-block;
     color: var(--clr-green);
 }
 h3{
@@ -107,11 +111,14 @@ footer{
 @media (min-width: 992px) {
     .container {
         justify-content: space-between;
-        gap: 20px;
     }
     .container .col{
         flex-basis: 47%;
     }
+    .statistics .container .statistic-list {
+    justify-content: space-between;
+}
+
 }
 /* Components */
 header {
@@ -125,7 +132,6 @@ header .container{
     justify-content: space-between;
 }
 header .container .logo a{
-    gap: 10px;
     font-size: var(--h3-size);
     font-weight: 700;
     color: var(--title-color);
@@ -192,10 +198,6 @@ header ul a{
 .hero .container{
     min-height: calc(100vh - 200px);
 }
-.hero .container .info h1 span{
-    display: inline-block;
-    color: var(--clr-green);
-}
 .clients .container .row {
     gap: 100px;
 }
@@ -215,3 +217,17 @@ header ul a{
 .features .container .row .feature .feature-icon{
     height: 60px;
 }
+/* .statistics .container .statistic-list {
+    gap:30px  25px;
+}
+.statistics .container .statistic-list .statistic{
+    width: 200px;
+}
+.statistics .container .statistic-list .statistic-details span{
+    display: block;
+}
+.statistics .container .statistic-list .statistic-details span:last-child{
+    margin-top: 5px;
+    font-size: var(--text-size);
+    color: var(--text-color);
+} */
